@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Blog of Suresh Kumar Nalluru]]></title>
+  <link href="http://nasuku.github.com/atom.xml" rel="self"/>
+  <link href="http://nasuku.github.com/"/>
+  <updated>2012-09-24T04:27:11-07:00</updated>
+  <id>http://nasuku.github.com/</id>
+  <author>
+    <name><![CDATA[Suresh Nalluru]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Programmers settings - fonts and schemes]]></title>
+    <link href="http://nasuku.github.com/blog/2012/09/24/programmers-settings-fonts-and-schemes/"/>
+    <updated>2012-09-24T03:26:00-07:00</updated>
+    <id>http://nasuku.github.com/blog/2012/09/24/programmers-settings-fonts-and-schemes</id>
+    <content type="html"><![CDATA[<p>Being a software person, a fair chunk of my life is spent before the
+computer. Which translates to the feeling that I should be very comfortable
+doing my routing tasks with it - The most common task being reading whats
+shown on the screen..</p>
+
+<p>I consider that Fonts play a very important role in this. A font for a
+programmer need not by stylish (like the newspaper fonts) but should have
+the following properties.</p>
+
+<ol>
+<li>It should be fixed width. Some folks may disagree on this when they use
+some very modern editors. But Readbility when there are
+nested code blocks is great if the font is fixed width.</li>
+<li>The font should cleanly identify the difference between similar looking
+letters of alphabet - Especially l and 1. or 0 and O.
+imagine the case if your code has variables like <code>var1</code> and <code>varl</code>
+and you are trying to debug the code and you need to strain your eyes
+just to distinguish between l and 1.</li>
+</ol>
+
+
+<p>My favorite fonts for this reason are:</p>
+
+<ul>
+<li><a href="http://openfontlibrary.org/font/cousine">Cousine</a></li>
+<li><a href="http://www.ms-studio.com/FontSales/anonymouspro.html">Anonymous Pro</a></li>
+<li>Monaco (available on mac by default)</li>
+<li>Consolas (available on windows 7 by default)</li>
+</ul>
+
+
+<p>I used all 4 of the fonts above and keep switching between them once in a
+while - All of them are equally good and way better than many other
+monospace fonts.</p>
+
+<p>Next important aspect for a programmer is the color scheme. It should not
+strain your eyes too much. This is a very personal taste ofcourse.</p>
+
+<p>My favories are</p>
+
+<ul>
+<li><a href="http://ethanschoonover.com/solarized">Solarized</a></li>
+<li><a href="http://slinky.imukuppi.org/zenburnpage/">Zenburn</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Unhide Library folder in MacOS]]></title>
+    <link href="http://nasuku.github.com/blog/2012/09/15/unhide-library-folder-in-macos/"/>
+    <updated>2012-09-15T18:03:00-07:00</updated>
+    <id>http://nasuku.github.com/blog/2012/09/15/unhide-library-folder-in-macos</id>
+    <content type="html"><![CDATA[<p>In MacOS, Every user&#8217;s home directory has a bunch of sub-directories that
+are hidden. Though they exist, you cant see them generally with Finder.
+Whether a particular folder is visible or not is controlled by an
+extended flag that is set for that directory.</p>
+
+<p>If you simply want to see &#8216;Library&#8217; directory (folder) always in the
+finder, just execute the following commands (in a terminal windows) and you are done.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ chflags nohidden ~/Library/</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To hide this folder again, simply  remove the &#8216;no&#8217; and execute the command.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ chflags hidden ~/Library/</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To see the extended flags of file/directories, use the &#8216;-O&#8217; option to ls
+like:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ls -ldO ~/Library</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[blog moved to github and octopress]]></title>
+    <link href="http://nasuku.github.com/blog/2012/09/02/blog-moved-to-github-and-octopress/"/>
+    <updated>2012-09-02T23:16:00-07:00</updated>
+    <id>http://nasuku.github.com/blog/2012/09/02/blog-moved-to-github-and-octopress</id>
+    <content type="html"><![CDATA[<p> Well - I&#8217;m sort of feeling like a geek now :)
+ Moved the blog to use <a href="http://octopress.org">Octopress</a> engine served
+ using <a href="http://pages.github.com">github pages</a>
+ This is the first post and dont plan to move the content here from old
+ blog site. This is a fresh new start :)</p>
+]]></content>
+  </entry>
+  
+</feed>

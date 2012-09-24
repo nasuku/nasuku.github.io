@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | Blog of Suresh Kumar Nalluru]]></title>
+  <link href="http://nasuku.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://nasuku.github.com/"/>
+  <updated>2012-09-24T04:27:11-07:00</updated>
+  <id>http://nasuku.github.com/</id>
+  <author>
+    <name><![CDATA[Suresh Nalluru]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[blog moved to github and octopress]]></title>
+    <link href="http://nasuku.github.com/blog/2012/09/02/blog-moved-to-github-and-octopress/"/>
+    <updated>2012-09-02T23:16:00-07:00</updated>
+    <id>http://nasuku.github.com/blog/2012/09/02/blog-moved-to-github-and-octopress</id>
+    <content type="html"><![CDATA[<p> Well - I'm sort of feeling like a geek now :)
+ Moved the blog to use <a href="http://octopress.org">Octopress</a> engine served
+ using <a href="http://pages.github.com">github pages</a>
+ This is the first post and dont plan to move the content here from old
+ blog site. This is a fresh new start :)</p>
+]]></content>
+  </entry>
+  
+</feed>

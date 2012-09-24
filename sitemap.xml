@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://nasuku.github.com/blog/2012/09/02/blog-moved-to-github-and-octopress/</loc>
+        <lastmod>2012-09-24T04:20:25-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://nasuku.github.com/blog/2012/09/15/unhide-library-folder-in-macos/</loc>
+        <lastmod>2012-09-24T04:20:25-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://nasuku.github.com/blog/2012/09/24/programmers-settings-fonts-and-schemes/
+        </loc>
+        <lastmod>2012-09-24T04:20:25-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://nasuku.github.com/blog/archives/</loc>
+        <lastmod>2012-09-24T04:20:25-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://nasuku.github.com/</loc>
+        <lastmod>2012-09-24T04:20:25-07:00</lastmod>
+    </url>
+</urlset>
