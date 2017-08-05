@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog of Suresh Kumar Nalluru</title>
+    <link>http://blog.nalluru.com/post/</link>
+    <description>Recent content in Posts on Blog of Suresh Kumar Nalluru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2012-2017. &lt;br&gt;All rights reserved.</copyright>
+    <lastBuildDate>Sat, 05 Aug 2017 12:17:37 -0700</lastBuildDate>
+    
+	<atom:link href="http://blog.nalluru.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unhide Library Folder In Macos</title>
+      <link>http://blog.nalluru.com/unhide-library-folder-in-macos/</link>
+      <pubDate>Sat, 05 Aug 2017 12:17:37 -0700</pubDate>
+      
+      <guid>http://blog.nalluru.com/unhide-library-folder-in-macos/</guid>
+      <description>In MacOS, Every user&amp;rsquo;s home directory has a bunch of sub-directories that are hidden. Though they exist, you cant see them generally with Finder. Whether a particular folder is visible or not is controlled by an extended flag that is set for that directory.
+If you simply want to see &amp;lsquo;Library&amp;rsquo; directory (folder) always in the finder, just execute the following commands (in a terminal windows) and you are done.</description>
+    </item>
+    
+    <item>
+      <title>Programmers Settings Fonts And Schemes</title>
+      <link>http://blog.nalluru.com/programmers-settings-fonts-and-schemes/</link>
+      <pubDate>Sat, 05 Aug 2017 12:17:20 -0700</pubDate>
+      
+      <guid>http://blog.nalluru.com/programmers-settings-fonts-and-schemes/</guid>
+      <description>Being a software person, a fair chunk of my life is spent before the computer. Which translates to the feeling that I should be very comfortable doing my routing tasks with it - The most common task being reading whats shown on the screen..
+I consider that Fonts play a very important role in this. A font for a programmer need not by stylish (like the newspaper fonts) but should have the following properties.</description>
+    </item>
+    
+  </channel>
+</rss>
