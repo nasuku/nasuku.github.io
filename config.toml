@@ -1,0 +1,45 @@
+baseURL =  'http://blog.nalluru.com'
+title =  'Blog of Suresh Kumar Nalluru'
+theme='blackburn'
+
+# Shown in the side menu
+#
+copyright = "&copy; 2012-2017. <br>All rights reserved."
+
+[permalinks]
+    # if the slug is not present, this takes the value of title of the page
+  post = "/:slug/"
+
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+[params]
+    highlightjs="androidstudio"
+    highlightjs_extra_languages=["yaml"]
+
+    #brand = "Home"
+    # This is the icon/text shown at the top left as a branding of the site
+    #
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 10
+    identifier = "home"
+    url = "/"
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+[social]
+  github = "nasuku"
+  
+#defaults
+disableLiveReload = false
+#canonifyurls = true
+#paginate = 10
