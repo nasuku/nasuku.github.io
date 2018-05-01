@@ -8,7 +8,8 @@ copyright = "&copy; 2012-2017. <br>All rights reserved."
 
 [permalinks]
     # if the slug is not present, this takes the value of title of the page
-  post = "/:slug/"
+  #post = "/:slug/"
+  post = "/:section/:year/:month/:slug/"
 
 [indexes]
     tag = "tags"
@@ -17,6 +18,8 @@ copyright = "&copy; 2012-2017. <br>All rights reserved."
 [params]
     highlightjs="androidstudio"
     highlightjs_extra_languages=["yaml"]
+    SidebarRecentLimit = 5
+    dateFormat = "02 Jan 2006, 15:04"
 
     #brand = "Home"
     # This is the icon/text shown at the top left as a branding of the site
@@ -30,16 +33,16 @@ copyright = "&copy; 2012-2017. <br>All rights reserved."
     identifier = "home"
     url = "/"
 
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
+  #[[menu.main]]
+    #name = "Posts"
+    #pre = "<i class='fa fa-list fa-fw'></i>"
+    #weight = 1
+    #identifier = "post"
+    #url = "/post/index.html"
 [social]
   github = "nasuku"
-  
+
 #defaults
 disableLiveReload = false
-#canonifyurls = true
-#paginate = 10
+canonifyurls = true
+paginate = 10
