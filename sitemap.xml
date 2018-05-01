@@ -3,23 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.nalluru.com/note-taking-with-nvalt/</loc>
+    <loc>http://blog.nalluru.com/post/2018/04/exiftool/</loc>
+    <lastmod>2018-04-30T10:40:32-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.nalluru.com/post/2017/12/note-taking-with-nvalt/</loc>
     <lastmod>2017-12-15T18:25:53-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/unhide-library-folder-in-macos/</loc>
+    <loc>http://blog.nalluru.com/post/2017/08/unhide-library-folder-in-macos/</loc>
     <lastmod>2017-08-05T12:17:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/programmers-settings-fonts-and-schemes/</loc>
+    <loc>http://blog.nalluru.com/post/2017/08/programmers-settings-fonts-and-schemes/</loc>
     <lastmod>2017-08-05T12:17:20-07:00</lastmod>
   </url>
   
   <url>
     <loc>http://blog.nalluru.com/</loc>
-    <lastmod>2017-12-15T18:25:53-08:00</lastmod>
+    <lastmod>2018-04-30T10:40:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,13 +42,13 @@
   
   <url>
     <loc>http://blog.nalluru.com/post/</loc>
-    <lastmod>2017-12-15T18:25:53-08:00</lastmod>
+    <lastmod>2018-04-30T10:40:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.nalluru.com/tags/programming/</loc>
-    <lastmod>2017-08-05T12:17:20-07:00</lastmod>
+    <lastmod>2018-04-30T10:40:32-07:00</lastmod>
     <priority>0</priority>
   </url>
   
