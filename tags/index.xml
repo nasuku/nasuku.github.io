@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog of Suresh Kumar Nalluru</title>
@@ -6,22 +6,22 @@
     <description>Recent content in Tags on Blog of Suresh Kumar Nalluru</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2012-2017. &lt;br&gt;All rights reserved.</copyright>
-    <lastBuildDate>Sat, 05 Aug 2017 12:17:37 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Apr 2018 21:10:32 -0700</lastBuildDate>
     
 	<atom:link href="http://blog.nalluru.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Macos</title>
-      <link>http://blog.nalluru.com/tags/macos/</link>
-      <pubDate>Sat, 05 Aug 2017 12:17:37 -0700</pubDate>
+      <title>tools</title>
+      <link>http://blog.nalluru.com/tags/tools/</link>
+      <pubDate>Mon, 30 Apr 2018 21:10:32 -0700</pubDate>
       
-      <guid>http://blog.nalluru.com/tags/macos/</guid>
+      <guid>http://blog.nalluru.com/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Notes</title>
+      <title>notes</title>
       <link>http://blog.nalluru.com/tags/notes/</link>
       <pubDate>Fri, 15 Dec 2017 18:25:53 -0800</pubDate>
       
@@ -30,9 +30,18 @@
     </item>
     
     <item>
-      <title>Programming</title>
+      <title>macos</title>
+      <link>http://blog.nalluru.com/tags/macos/</link>
+      <pubDate>Sat, 05 Aug 2017 12:17:37 -0700</pubDate>
+      
+      <guid>http://blog.nalluru.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
       <link>http://blog.nalluru.com/tags/programming/</link>
-      <pubDate>Mon, 30 Apr 2018 10:40:32 -0700</pubDate>
+      <pubDate>Sat, 05 Aug 2017 12:17:20 -0700</pubDate>
       
       <guid>http://blog.nalluru.com/tags/programming/</guid>
       <description></description>
