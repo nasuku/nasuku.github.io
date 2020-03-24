@@ -1,6 +1,6 @@
 baseURL =  'http://blog.nalluru.com'
 title =  'Blog of Suresh Kumar Nalluru'
-theme='blackburn'
+theme='hugo-ink'
 
 # Shown in the side menu
 #
