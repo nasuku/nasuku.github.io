@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Git Worktree - Blog of Suresh Kumar Nalluru</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Git Worktree">
+<meta itemprop="description" content="Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
+From the documentation explaining the use-case:
+ create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
+ $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack .">
+<meta itemprop="datePublished" content="2021-02-10T23:28:04-08:00" />
+<meta itemprop="dateModified" content="2021-02-10T23:28:04-08:00" />
+<meta itemprop="wordCount" content="88">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta property="og:title" content="Git Worktree" />
+<meta property="og:description" content="Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
+From the documentation explaining the use-case:
+ create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
+ $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.nalluru.com/posts/git-worktree/" />
+<meta property="article:published_time" content="2021-02-10T23:28:04-08:00" />
+<meta property="article:modified_time" content="2021-02-10T23:28:04-08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git Worktree"/>
+<meta name="twitter:description" content="Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
+From the documentation explaining the use-case:
+ create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
+ $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack ."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://blog.nalluru.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://blog.nalluru.com/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://blog.nalluru.com/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="http://blog.nalluru.com/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="http://blog.nalluru.com/">Blog of Suresh Kumar Nalluru</a></h1>
+	<div class="site-description"><p></p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/nasuku" title="Github"><i data-feather="github"></i></a></li><li><a href="http://blog.nalluru.com/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="http://blog.nalluru.com/">Home</a>
+			</li>
+			
+			<li>
+				<a href="http://blog.nalluru.com/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="http://blog.nalluru.com/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">10</span>
+							<span class="rest">Feb 2021</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Git Worktree</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>Use the same git repo and .git content but have multiple working directories.
+This can be very useful if you are switcing contexts on the same monorepo.</p>
+<p>From the <a href="https://git-scm.com/docs/git-worktree#_examples">documentation</a> explaining the use-case:</p>
+<blockquote>
+<p>create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.</p>
+</blockquote>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">$ git worktree add -b emergency-fix ../temp master
+$ pushd ../temp
+# ... hack hack hack ...
+$ git commit -a -m &#39;emergency fix for boss&#39;
+$ popd
+$ git worktree remove ../temp
+</code></pre></div>
+			</div>
+
+			<div class="tags">
+				
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>  © 2012-2021 Suresh Kumar Nalluru. All rights reserved |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

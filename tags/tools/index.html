@@ -4,7 +4,9 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>tools - Blog of Suresh Kumar Nalluru</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" href="http://blog.nalluru.com/tags/tools/index.xml" title="Blog of Suresh Kumar Nalluru" />
-	<meta property="og:title" content="tools" />
+	<meta itemprop="name" content="tools">
+<meta itemprop="description" content="">
+<meta property="og:title" content="tools" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://blog.nalluru.com/tags/tools/" />
@@ -16,18 +18,20 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="http://blog.nalluru.com/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="http://blog.nalluru.com/css/main.css" />
 
-	
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://blog.nalluru.com/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 		<script src="http://blog.nalluru.com/js/main.js"></script>
 </head>
 
 
 <body>
-	<div class="container wrapper list">
+	<div class="container wrapper tags">
 		<div class="header">
 	
 	<h1 class="site-title"><a href="http://blog.nalluru.com/">Blog of Suresh Kumar Nalluru</a></h1>
-	<div class="site-description"><nav class="nav social">
-			<ul class="flat"></ul>
+	<div class="site-description"><p></p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/nasuku" title="Github"><i data-feather="github"></i></a></li><li><a href="http://blog.nalluru.com/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
 		</nav>
 	</div>
 
@@ -35,7 +39,15 @@
 		<ul class="flat">
 			
 			<li>
-				<a href="/">Home</a>
+				<a href="http://blog.nalluru.com/">Home</a>
+			</li>
+			
+			<li>
+				<a href="http://blog.nalluru.com/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="http://blog.nalluru.com/tags">Tags</a>
 			</li>
 			
 		</ul>
@@ -43,40 +55,24 @@
 </div>
 
 
+		<h1 class="page-title">tools</h1>
 		
-			<h2>tools</h2>
 		
-
-		<ul class="posts flat"><li class="post">
-				<div class="post-header">
-					<div class="meta">
-						<div class="date">
-							<span class="day">30</span>
-							<span class="rest">Apr 2018</span>
-						</div>
-					</div>
-					<div class="matter">
-						<h4 class="title small">
-							<a href="/post/2018/04/exiftool/">Exiftool</a>
-						</h4>
-						<span class="description">
-							
-								
-*exiftool* is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format fo...
-							
-						</span>
-					</div>
-				</div>
-			</li></ul>
+		<ul>
+			
+				<li><a href="http://blog.nalluru.com/posts/exiftool/">Exiftool</a></li>
+			
+		</ul>
+		
 	</div>
 
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div> &copy; 2012-2017. <br>All rights reserved. |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+		<div>  © 2012-2021 Suresh Kumar Nalluru. All rights reserved |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
 
-
+<script>feather.replace()</script>
 </body>
 
 </html>

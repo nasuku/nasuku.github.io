@@ -4,16 +4,21 @@
   
   <url>
     <loc>http://blog.nalluru.com/</loc>
-    <lastmod>2018-04-30T21:10:32-07:00</lastmod>
+    <lastmod>2021-02-10T23:28:04-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/post/2018/04/exiftool/</loc>
-    <lastmod>2018-04-30T21:10:32-07:00</lastmod>
+    <loc>http://blog.nalluru.com/posts/git-worktree/</loc>
+    <lastmod>2021-02-10T23:28:04-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/post/</loc>
+    <loc>http://blog.nalluru.com/posts/</loc>
+    <lastmod>2021-02-10T23:28:04-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.nalluru.com/posts/exiftool/</loc>
     <lastmod>2018-04-30T21:10:32-07:00</lastmod>
   </url>
   
@@ -28,7 +33,7 @@
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/post/2017/12/note-taking-with-nvalt/</loc>
+    <loc>http://blog.nalluru.com/posts/nvalt/</loc>
     <lastmod>2017-12-15T18:25:53-08:00</lastmod>
   </url>
   
@@ -43,12 +48,12 @@
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/post/2017/08/unhide-library-folder-in-macos/</loc>
+    <loc>http://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</loc>
     <lastmod>2017-08-05T12:17:37-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/post/2017/08/programmers-settings-fonts-and-schemes/</loc>
+    <loc>http://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</loc>
     <lastmod>2017-08-05T12:17:20-07:00</lastmod>
   </url>
   
@@ -58,7 +63,7 @@
   </url>
   
   <url>
-    <loc>http://blog.nalluru.com/topics/</loc>
+    <loc>http://blog.nalluru.com/categories/</loc>
   </url>
   
 </urlset>
