@@ -1,17 +1,22 @@
-baseURL =  'http://blog.nalluru.com/'
+baseURL =  'https://blog.nalluru.com/'
 languageCode = "en-us"
 title =  'Blog of Suresh Kumar Nalluru'
 
 theme = [ "my",  "hugo-ink" ]
 
-copyright = "© 2012-2021 Suresh Kumar Nalluru. All rights reserved"
+copyright = "© 2012-2025 Suresh Kumar Nalluru. All rights reserved"
 pygmentsstyle = "vs"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disableLiveReload = false
 canonifyurls = true
-paginate = 10
+
+googleAnalytics = ""
+disqusShortname = ""
+
+[pagination]
+pagerSize = 11
 
 [permalinks]
     # if the slug is not present, this takes the value of title of the page
@@ -26,9 +31,19 @@ paginate = 10
     dateFormat = "02 Jan 2006, 15:04"
 	mode = "auto" # "dark" or "auto"
     featherIconsCDN = true
-
 #without this subtitle, the social icons seem to be weirdly placed
 	subtitle = ""
+
+[services]
+  [services.disqus]
+    shortname = ''
+  [services.googleAnalytics]
+    id = ''
+  [services.instagram]
+    accessToken = ''
+    disableInlineCSS = false
+  [services.rss]
+    limit = -1
 
 # Nav.
 [[menu.main]]
