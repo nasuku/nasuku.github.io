@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog of Suresh Kumar Nalluru</title>
-    <link>http://blog.nalluru.com/categories/</link>
+    <link>https://blog.nalluru.com/categories/</link>
     <description>Recent content in Categories on Blog of Suresh Kumar Nalluru</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2012-2021 Suresh Kumar Nalluru. All rights reserved</copyright><atom:link href="http://blog.nalluru.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2012-2025 Suresh Kumar Nalluru. All rights reserved</copyright>
+    <atom:link href="https://blog.nalluru.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

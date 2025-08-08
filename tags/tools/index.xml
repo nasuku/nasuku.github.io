@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tools on Blog of Suresh Kumar Nalluru</title>
-    <link>http://blog.nalluru.com/tags/tools/</link>
-    <description>Recent content in tools on Blog of Suresh Kumar Nalluru</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Tools on Blog of Suresh Kumar Nalluru</title>
+    <link>https://blog.nalluru.com/tags/tools/</link>
+    <description>Recent content in Tools on Blog of Suresh Kumar Nalluru</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2012-2021 Suresh Kumar Nalluru. All rights reserved</copyright>
-    <lastBuildDate>Mon, 30 Apr 2018 21:10:32 -0700</lastBuildDate><atom:link href="http://blog.nalluru.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2012-2025 Suresh Kumar Nalluru. All rights reserved</copyright>
+    <lastBuildDate>Mon, 30 Apr 2018 21:10:32 -0700</lastBuildDate>
+    <atom:link href="https://blog.nalluru.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exiftool</title>
-      <link>http://blog.nalluru.com/posts/exiftool/</link>
+      <link>https://blog.nalluru.com/posts/exiftool/</link>
       <pubDate>Mon, 30 Apr 2018 21:10:32 -0700</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/exiftool/</guid>
-      <description>exiftool is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days. sample usages below.
-Rename jpg etc based on DateTimeOriginal exif tag inside the image
-exiftool -r &amp;#39;-FileName&amp;lt;DateTimeOriginal&amp;#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
-exiftool -r &amp;#34;-FileName&amp;lt;FileModifyDate&amp;#34; -d &amp;#39;Unknown/%%f%%-c.</description>
+      <guid>https://blog.nalluru.com/posts/exiftool/</guid>
+      <description>&lt;p&gt;&lt;em&gt;exiftool&lt;/em&gt; is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days.&#xA;sample usages below.&lt;/p&gt;&#xA;&lt;p&gt;Rename jpg etc based on DateTimeOriginal exif tag  inside the image&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool -r &amp;#39;-FileName&amp;lt;DateTimeOriginal&amp;#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e  -ext JPG -ext PNG -ext jpeg -ext HEIC  -ext GIF .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool -r &amp;#34;-FileName&amp;lt;FileModifyDate&amp;#34; -d &amp;#39;Unknown/%%f%%-c.%%e&amp;#39; -if &amp;#39;not $DateTimeOriginal&amp;#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Rename Video files based on MediaCreateDate exif tag  inside the video&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

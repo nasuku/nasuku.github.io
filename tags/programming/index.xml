@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>programming on Blog of Suresh Kumar Nalluru</title>
-    <link>http://blog.nalluru.com/tags/programming/</link>
-    <description>Recent content in programming on Blog of Suresh Kumar Nalluru</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Programming on Blog of Suresh Kumar Nalluru</title>
+    <link>https://blog.nalluru.com/tags/programming/</link>
+    <description>Recent content in Programming on Blog of Suresh Kumar Nalluru</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2012-2021 Suresh Kumar Nalluru. All rights reserved</copyright>
-    <lastBuildDate>Sat, 05 Aug 2017 12:17:20 -0700</lastBuildDate><atom:link href="http://blog.nalluru.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2012-2025 Suresh Kumar Nalluru. All rights reserved</copyright>
+    <lastBuildDate>Sat, 05 Aug 2017 12:17:20 -0700</lastBuildDate>
+    <atom:link href="https://blog.nalluru.com/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programmers Settings Fonts And Schemes</title>
-      <link>http://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</link>
+      <link>https://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</link>
       <pubDate>Sat, 05 Aug 2017 12:17:20 -0700</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</guid>
-      <description>Being a software person, a fair chunk of my life is spent before the computer. Which translates to the feeling that I should be very comfortable doing my routing tasks with it - The most common task being reading whats shown on the screen..
-I consider that Fonts play a very important role in this. A font for a programmer need not by stylish (like the newspaper fonts) but should have the following properties.</description>
+      <guid>https://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</guid>
+      <description>&lt;p&gt;Being a software person, a fair chunk of my life is spent before the&#xA;computer. Which translates to the feeling that I should be very comfortable&#xA;doing my routing tasks with it - The most common task being reading whats&#xA;shown on the screen..&lt;/p&gt;&#xA;&lt;p&gt;I consider that Fonts play a very important role in this. A font for a&#xA;programmer need not by stylish (like the newspaper fonts) but should have&#xA;the following properties.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,64 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog of Suresh Kumar Nalluru</title>
-    <link>http://blog.nalluru.com/</link>
+    <link>https://blog.nalluru.com/</link>
     <description>Recent content on Blog of Suresh Kumar Nalluru</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2012-2021 Suresh Kumar Nalluru. All rights reserved</copyright>
-    <lastBuildDate>Wed, 10 Feb 2021 23:28:04 -0800</lastBuildDate><atom:link href="http://blog.nalluru.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2012-2025 Suresh Kumar Nalluru. All rights reserved</copyright>
+    <lastBuildDate>Wed, 10 Feb 2021 23:28:04 -0800</lastBuildDate>
+    <atom:link href="https://blog.nalluru.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Worktree</title>
-      <link>http://blog.nalluru.com/posts/git-worktree/</link>
+      <link>https://blog.nalluru.com/posts/git-worktree/</link>
       <pubDate>Wed, 10 Feb 2021 23:28:04 -0800</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/git-worktree/</guid>
-      <description>Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
-From the documentation explaining the use-case:
- create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
- $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack .</description>
+      <guid>https://blog.nalluru.com/posts/git-worktree/</guid>
+      <description>&lt;p&gt;Use the same git repo and .git content but have multiple working directories.&#xA;This can be very useful if you are switcing contexts on the same monorepo.&lt;/p&gt;&#xA;&lt;p&gt;From the &lt;a href=&#34;https://git-scm.com/docs/git-worktree#_examples&#34;&gt;documentation&lt;/a&gt; explaining the use-case:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ git worktree add -b emergency-fix ../temp master&#xA;$ pushd ../temp&#xA;# ... hack hack hack ...&#xA;$ git commit -a -m &amp;#39;emergency fix for boss&amp;#39;&#xA;$ popd&#xA;$ git worktree remove ../temp&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>Exiftool</title>
-      <link>http://blog.nalluru.com/posts/exiftool/</link>
+      <link>https://blog.nalluru.com/posts/exiftool/</link>
       <pubDate>Mon, 30 Apr 2018 21:10:32 -0700</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/exiftool/</guid>
-      <description>exiftool is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days. sample usages below.
-Rename jpg etc based on DateTimeOriginal exif tag inside the image
-exiftool -r &amp;#39;-FileName&amp;lt;DateTimeOriginal&amp;#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
-exiftool -r &amp;#34;-FileName&amp;lt;FileModifyDate&amp;#34; -d &amp;#39;Unknown/%%f%%-c.</description>
+      <guid>https://blog.nalluru.com/posts/exiftool/</guid>
+      <description>&lt;p&gt;&lt;em&gt;exiftool&lt;/em&gt; is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days.&#xA;sample usages below.&lt;/p&gt;&#xA;&lt;p&gt;Rename jpg etc based on DateTimeOriginal exif tag  inside the image&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool -r &amp;#39;-FileName&amp;lt;DateTimeOriginal&amp;#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e  -ext JPG -ext PNG -ext jpeg -ext HEIC  -ext GIF .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;exiftool -r &amp;#34;-FileName&amp;lt;FileModifyDate&amp;#34; -d &amp;#39;Unknown/%%f%%-c.%%e&amp;#39; -if &amp;#39;not $DateTimeOriginal&amp;#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Rename Video files based on MediaCreateDate exif tag  inside the video&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Note taking with Nvalt</title>
-      <link>http://blog.nalluru.com/posts/nvalt/</link>
+      <link>https://blog.nalluru.com/posts/nvalt/</link>
       <pubDate>Fri, 15 Dec 2017 18:25:53 -0800</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/nvalt/</guid>
-      <description>I always used to write tidbits of programming or notes in a file in electronic format and refer to them frequently. Over a span of few montsh this would grow to be a big file that becomes invaluable to me and I end up referring it again and again. A Simple text file with a simple delimiter like &amp;mdash; or ### would have done to job but not always easy to search.</description>
+      <guid>https://blog.nalluru.com/posts/nvalt/</guid>
+      <description>&lt;p&gt;I always used to write tidbits of programming or notes in a file in electronic format and refer to them frequently.&#xA;Over a span of few montsh this would grow to be a big file that becomes invaluable to me and I end up referring it again and again.&#xA;A Simple text file with a simple delimiter like &amp;mdash; or ### would have done to job but not always easy to search.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Unhide Library Folder In Macos</title>
-      <link>http://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</link>
+      <link>https://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</link>
       <pubDate>Sat, 05 Aug 2017 12:17:37 -0700</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</guid>
-      <description>In MacOS, Every user&amp;rsquo;s home directory has a bunch of sub-directories that are hidden. Though they exist, you cant see them generally with Finder. Whether a particular folder is visible or not is controlled by an extended flag that is set for that directory.
-If you simply want to see &amp;lsquo;Library&amp;rsquo; directory (folder) always in the finder, just execute the following commands (in a terminal windows) and you are done.</description>
+      <guid>https://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</guid>
+      <description>&lt;p&gt;In MacOS, Every user&amp;rsquo;s home directory has a bunch of sub-directories that&#xA;are hidden. Though they exist, you cant see them generally with Finder.&#xA;Whether a particular folder is visible or not is controlled by an&#xA;extended flag that is set for that directory.&lt;/p&gt;&#xA;&lt;p&gt;If you simply want to see &amp;lsquo;Library&amp;rsquo; directory (folder) always in the&#xA;finder, just execute the following commands (in a terminal windows) and you are done.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Programmers Settings Fonts And Schemes</title>
-      <link>http://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</link>
+      <link>https://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</link>
       <pubDate>Sat, 05 Aug 2017 12:17:20 -0700</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</guid>
-      <description>Being a software person, a fair chunk of my life is spent before the computer. Which translates to the feeling that I should be very comfortable doing my routing tasks with it - The most common task being reading whats shown on the screen..
-I consider that Fonts play a very important role in this. A font for a programmer need not by stylish (like the newspaper fonts) but should have the following properties.</description>
+      <guid>https://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</guid>
+      <description>&lt;p&gt;Being a software person, a fair chunk of my life is spent before the&#xA;computer. Which translates to the feeling that I should be very comfortable&#xA;doing my routing tasks with it - The most common task being reading whats&#xA;shown on the screen..&lt;/p&gt;&#xA;&lt;p&gt;I consider that Fonts play a very important role in this. A font for a&#xA;programmer need not by stylish (like the newspaper fonts) but should have&#xA;the following properties.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

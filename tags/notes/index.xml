@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>notes on Blog of Suresh Kumar Nalluru</title>
-    <link>http://blog.nalluru.com/tags/notes/</link>
-    <description>Recent content in notes on Blog of Suresh Kumar Nalluru</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Notes on Blog of Suresh Kumar Nalluru</title>
+    <link>https://blog.nalluru.com/tags/notes/</link>
+    <description>Recent content in Notes on Blog of Suresh Kumar Nalluru</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© 2012-2021 Suresh Kumar Nalluru. All rights reserved</copyright>
-    <lastBuildDate>Fri, 15 Dec 2017 18:25:53 -0800</lastBuildDate><atom:link href="http://blog.nalluru.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2012-2025 Suresh Kumar Nalluru. All rights reserved</copyright>
+    <lastBuildDate>Fri, 15 Dec 2017 18:25:53 -0800</lastBuildDate>
+    <atom:link href="https://blog.nalluru.com/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Note taking with Nvalt</title>
-      <link>http://blog.nalluru.com/posts/nvalt/</link>
+      <link>https://blog.nalluru.com/posts/nvalt/</link>
       <pubDate>Fri, 15 Dec 2017 18:25:53 -0800</pubDate>
-      
-      <guid>http://blog.nalluru.com/posts/nvalt/</guid>
-      <description>I always used to write tidbits of programming or notes in a file in electronic format and refer to them frequently. Over a span of few montsh this would grow to be a big file that becomes invaluable to me and I end up referring it again and again. A Simple text file with a simple delimiter like &amp;mdash; or ### would have done to job but not always easy to search.</description>
+      <guid>https://blog.nalluru.com/posts/nvalt/</guid>
+      <description>&lt;p&gt;I always used to write tidbits of programming or notes in a file in electronic format and refer to them frequently.&#xA;Over a span of few montsh this would grow to be a big file that becomes invaluable to me and I end up referring it again and again.&#xA;A Simple text file with a simple delimiter like &amp;mdash; or ### would have done to job but not always easy to search.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

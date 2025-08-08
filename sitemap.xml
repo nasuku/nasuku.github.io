@@ -1,69 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://blog.nalluru.com/</loc>
+    <loc>https://blog.nalluru.com/</loc>
     <lastmod>2021-02-10T23:28:04-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/posts/git-worktree/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/posts/git-worktree/</loc>
     <lastmod>2021-02-10T23:28:04-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/posts/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/posts/</loc>
     <lastmod>2021-02-10T23:28:04-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/posts/exiftool/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/posts/exiftool/</loc>
     <lastmod>2018-04-30T21:10:32-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/tags/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/tags/</loc>
     <lastmod>2018-04-30T21:10:32-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/tags/tools/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/tags/tools/</loc>
     <lastmod>2018-04-30T21:10:32-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/posts/nvalt/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/posts/nvalt/</loc>
     <lastmod>2017-12-15T18:25:53-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/tags/notes/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/tags/notes/</loc>
     <lastmod>2017-12-15T18:25:53-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/tags/macos/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/tags/macos/</loc>
     <lastmod>2017-08-05T12:17:37-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/</loc>
     <lastmod>2017-08-05T12:17:37-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/posts/programmers-settings-fonts-and-schemes/</loc>
     <lastmod>2017-08-05T12:17:20-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/tags/programming/</loc>
+  </url><url>
+    <loc>https://blog.nalluru.com/tags/programming/</loc>
     <lastmod>2017-08-05T12:17:20-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.nalluru.com/categories/</loc>
   </url>
-  
-  <url>
-    <loc>http://blog.nalluru.com/categories/</loc>
-  </url>
-  
 </urlset>
