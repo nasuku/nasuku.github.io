@@ -7,18 +7,18 @@
   <meta itemprop="name" content="Exiftool">
   <meta itemprop="description" content="exiftool is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days. sample usages below.
 Rename jpg etc based on DateTimeOriginal exif tag inside the image
-exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
-exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . Rename Video files based on MediaCreateDate exif tag inside the video">
+1 exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
+1 exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . Rename Video files based on MediaCreateDate exif tag inside the video">
   <meta itemprop="datePublished" content="2018-04-30T21:10:32-07:00">
   <meta itemprop="dateModified" content="2018-04-30T21:10:32-07:00">
-  <meta itemprop="wordCount" content="170">
+  <meta itemprop="wordCount" content="175">
   <meta itemprop="keywords" content="Tools"><meta property="og:url" content="https://blog.nalluru.com/posts/exiftool/">
   <meta property="og:site_name" content="Blog of Suresh Kumar Nalluru">
   <meta property="og:title" content="Exiftool">
   <meta property="og:description" content="exiftool is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days. sample usages below.
 Rename jpg etc based on DateTimeOriginal exif tag inside the image
-exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
-exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . Rename Video files based on MediaCreateDate exif tag inside the video">
+1 exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
+1 exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . Rename Video files based on MediaCreateDate exif tag inside the video">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -30,8 +30,8 @@ exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#3
   <meta name="twitter:title" content="Exiftool">
   <meta name="twitter:description" content="exiftool is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days. sample usages below.
 Rename jpg etc based on DateTimeOriginal exif tag inside the image
-exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
-exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . Rename Video files based on MediaCreateDate exif tag inside the video">
+1 exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate
+1 exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF . Rename Video files based on MediaCreateDate exif tag inside the video">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.nalluru.com/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.nalluru.com/css/main.css" />
@@ -91,16 +91,51 @@ exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#3
 				<p><em>exiftool</em> is a wonderful tool if you like custom renaming of files. It also supports HEIC files (the default format for apple iphones) these days.
 sample usages below.</p>
 <p>Rename jpg etc based on DateTimeOriginal exif tag  inside the image</p>
-<pre tabindex="0"><code>exiftool -r &#39;-FileName&lt;DateTimeOriginal&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e  -ext JPG -ext PNG -ext jpeg -ext HEIC  -ext GIF .
-</code></pre><p>For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate</p>
-<pre tabindex="0"><code>exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $DateTimeOriginal&#39; -ext JPG -ext PNG -ext jpeg -ext HEIC -ext GIF .
-</code></pre><p>Rename Video files based on MediaCreateDate exif tag  inside the video</p>
-<pre tabindex="0"><code>exiftool -r &#39;-FileName&lt;MediaCreateDate&#39; -d %Y/%m/%Y-%m-%d_%H-%M-%S%%-c.%%e -ext MOV -ext mp4 -ext MP4 .
-</code></pre><p>For files which dont have MediaCreateDate tag rename movie etc based on FileModifyDate</p>
-<pre tabindex="0"><code>exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;not $MediaCreateDate&#39; -ext MOV -ext mp4 -ext MP4 .
-</code></pre><p>For some files have MediaCreateDate tag set to 00 rename movie etc based on FileModifyDate</p>
-<pre tabindex="0"><code>exiftool -r &#34;-FileName&lt;FileModifyDate&#34; -d &#39;Unknown/%%f%%-c.%%e&#39; -if &#39;$MediaCreateDate eq &#34;0000:00:00 00:00:00&#34;&#39; -ext MOV -ext mp4 -ext MP4 .
-</code></pre>
+<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>exiftool <span style="color:#666">-</span>r <span style="color:#ba2121">&#39;-FileName&lt;DateTimeOriginal&#39;</span> <span style="color:#666">-</span>d <span style="color:#666">%</span>Y<span style="color:#666">/%</span>m<span style="color:#666">/%</span>Y<span style="color:#666">-%</span>m<span style="color:#666">-%</span>d_<span style="color:#666">%</span>H<span style="color:#666">-%</span>M<span style="color:#666">-%</span>S<span style="color:#666">%%-</span>c<span style="color:#666">.%%</span>e  <span style="color:#666">-</span>ext JPG <span style="color:#666">-</span>ext PNG <span style="color:#666">-</span>ext jpeg <span style="color:#666">-</span>ext HEIC  <span style="color:#666">-</span>ext GIF <span style="color:#666">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>For files which dont have DateTimeOriginal tag rename jpg etc based on FileModifyDate</p>
+<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>exiftool <span style="color:#666">-</span>r <span style="color:#ba2121">&#34;-FileName&lt;FileModifyDate&#34;</span> <span style="color:#666">-</span>d <span style="color:#ba2121">&#39;Unknown/</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">f</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">-c.</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">e&#39;</span> <span style="color:#666">-</span><span style="color:#008000;font-weight:bold">if</span> <span style="color:#ba2121">&#39;not $DateTimeOriginal&#39;</span> <span style="color:#666">-</span>ext JPG <span style="color:#666">-</span>ext PNG <span style="color:#666">-</span>ext jpeg <span style="color:#666">-</span>ext HEIC <span style="color:#666">-</span>ext GIF <span style="color:#666">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Rename Video files based on MediaCreateDate exif tag  inside the video</p>
+<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>exiftool <span style="color:#666">-</span>r <span style="color:#ba2121">&#39;-FileName&lt;MediaCreateDate&#39;</span> <span style="color:#666">-</span>d <span style="color:#666">%</span>Y<span style="color:#666">/%</span>m<span style="color:#666">/%</span>Y<span style="color:#666">-%</span>m<span style="color:#666">-%</span>d_<span style="color:#666">%</span>H<span style="color:#666">-%</span>M<span style="color:#666">-%</span>S<span style="color:#666">%%-</span>c<span style="color:#666">.%%</span>e <span style="color:#666">-</span>ext MOV <span style="color:#666">-</span>ext mp4 <span style="color:#666">-</span>ext MP4 <span style="color:#666">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>For files which dont have MediaCreateDate tag rename movie etc based on FileModifyDate</p>
+<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>exiftool <span style="color:#666">-</span>r <span style="color:#ba2121">&#34;-FileName&lt;FileModifyDate&#34;</span> <span style="color:#666">-</span>d <span style="color:#ba2121">&#39;Unknown/</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">f</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">-c.</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">e&#39;</span> <span style="color:#666">-</span><span style="color:#008000;font-weight:bold">if</span> <span style="color:#ba2121">&#39;not $MediaCreateDate&#39;</span> <span style="color:#666">-</span>ext MOV <span style="color:#666">-</span>ext mp4 <span style="color:#666">-</span>ext MP4 <span style="color:#666">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>For some files have MediaCreateDate tag set to 00 rename movie etc based on FileModifyDate</p>
+<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>exiftool <span style="color:#666">-</span>r <span style="color:#ba2121">&#34;-FileName&lt;FileModifyDate&#34;</span> <span style="color:#666">-</span>d <span style="color:#ba2121">&#39;Unknown/</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">f</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">-c.</span><span style="color:#b68;font-weight:bold">%%</span><span style="color:#ba2121">e&#39;</span> <span style="color:#666">-</span><span style="color:#008000;font-weight:bold">if</span> <span style="color:#ba2121">&#39;$MediaCreateDate eq &#34;0000:00:00 00:00:00&#34;&#39;</span> <span style="color:#666">-</span>ext MOV <span style="color:#666">-</span>ext mp4 <span style="color:#666">-</span>ext MP4 <span style="color:#666">.</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
 			</div>
 
 			<div class="tags">
@@ -117,10 +152,8 @@ sample usages below.</p>
 	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
-		<div>2025  © 2012-2025 Suresh Kumar Nalluru. All rights reserved |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+		<div> © 2012-2025 Suresh Kumar Nalluru. All rights reserved |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-</div>
-
-<script>feather.replace()</script>
+</div><script>feather.replace()</script>
 </body>
 </html>
