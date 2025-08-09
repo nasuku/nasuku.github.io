@@ -11,4 +11,4 @@ git worktree remove public --force
 git b -D cur-updates
 
 git commit -a
-git push origin src
+git push origin HEAD:src

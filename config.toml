@@ -41,7 +41,7 @@ canonifyurls = true
     style = 'pygments'
     lineNos = true
     guessSyntax = true
-    lineNumbersInTable = true
+    lineNumbersInTable = false  # this shows scrollbar instead of ugly overflow of colors
 
 # Nav.
 [[menu.main]]
