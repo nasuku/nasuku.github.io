@@ -9,7 +9,7 @@
 If you simply want to see ‘Library’ directory (folder) always in the finder, just execute the following commands (in a terminal windows) and you are done.">
   <meta itemprop="datePublished" content="2017-08-05T12:17:37-07:00">
   <meta itemprop="dateModified" content="2017-08-05T12:17:37-07:00">
-  <meta itemprop="wordCount" content="112">
+  <meta itemprop="wordCount" content="109">
   <meta itemprop="keywords" content="Macos"><meta property="og:url" content="https://blog.nalluru.com/posts/2012-09-15-unhide-library-folder-in-macos/">
   <meta property="og:site_name" content="Blog of Suresh Kumar Nalluru">
   <meta property="og:title" content="Unhide Library Folder In Macos">
@@ -88,34 +88,13 @@ Whether a particular folder is visible or not is controlled by an
 extended flag that is set for that directory.</p>
 <p>If you simply want to see &lsquo;Library&rsquo; directory (folder) always in the
 finder, just execute the following commands (in a terminal windows) and you are done.</p>
-<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ chflags nohidden ~/Library/
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>To hide this folder again, simply  remove the &rsquo;no&rsquo; and execute the command.</p>
-<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ chflags hidden ~/Library/
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>To see the extended flags of file/directories, use the &lsquo;-O&rsquo; option to ls
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>$ chflags nohidden ~/Library/
+</span></span></code></pre></div><p>To hide this folder again, simply  remove the &rsquo;no&rsquo; and execute the command.</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>$ chflags hidden ~/Library/
+</span></span></code></pre></div><p>To see the extended flags of file/directories, use the &lsquo;-O&rsquo; option to ls
 like:</p>
-<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ ls -ldO ~/Library
-</span></span></code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>$ ls -ldO ~/Library
+</span></span></code></pre></div>
 			</div>
 
 			<div class="tags">

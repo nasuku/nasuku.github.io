@@ -8,16 +8,16 @@
   <meta itemprop="description" content="Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
 From the documentation explaining the use-case:
 create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
-1 2 3 4 5 6 $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack ... $ git commit -a -m &#39;emergency fix for boss&#39; $ popd $ git worktree remove ../temp">
+1$ git worktree add -b emergency-fix ../temp master 2$ pushd ../temp 3# ... hack hack hack ... 4$ git commit -a -m &#39;emergency fix for boss&#39; 5$ popd 6$ git worktree remove ../temp">
   <meta itemprop="datePublished" content="2021-02-10T23:28:04-08:00">
   <meta itemprop="dateModified" content="2021-02-10T23:28:04-08:00">
-  <meta itemprop="wordCount" content="94"><meta property="og:url" content="https://blog.nalluru.com/posts/git-worktree/">
+  <meta itemprop="wordCount" content="88"><meta property="og:url" content="https://blog.nalluru.com/posts/git-worktree/">
   <meta property="og:site_name" content="Blog of Suresh Kumar Nalluru">
   <meta property="og:title" content="Git Worktree">
   <meta property="og:description" content="Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
 From the documentation explaining the use-case:
 create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
-1 2 3 4 5 6 $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack ... $ git commit -a -m &#39;emergency fix for boss&#39; $ popd $ git worktree remove ../temp">
+1$ git worktree add -b emergency-fix ../temp master 2$ pushd ../temp 3# ... hack hack hack ... 4$ git commit -a -m &#39;emergency fix for boss&#39; 5$ popd 6$ git worktree remove ../temp">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -29,7 +29,7 @@ create a temporary linked working tree to make the emergency fix, remove it when
   <meta name="twitter:description" content="Use the same git repo and .git content but have multiple working directories. This can be very useful if you are switcing contexts on the same monorepo.
 From the documentation explaining the use-case:
 create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.
-1 2 3 4 5 6 $ git worktree add -b emergency-fix ../temp master $ pushd ../temp # ... hack hack hack ... $ git commit -a -m &#39;emergency fix for boss&#39; $ popd $ git worktree remove ../temp">
+1$ git worktree add -b emergency-fix ../temp master 2$ pushd ../temp 3# ... hack hack hack ... 4$ git commit -a -m &#39;emergency fix for boss&#39; 5$ popd 6$ git worktree remove ../temp">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.nalluru.com/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://blog.nalluru.com/css/main.css" />
@@ -91,25 +91,13 @@ This can be very useful if you are switcing contexts on the same monorepo.</p>
 <p>From the <a href="https://git-scm.com/docs/git-worktree#_examples">documentation</a> explaining the use-case:</p>
 <blockquote>
 <p>create a temporary linked working tree to make the emergency fix, remove it when done, and then resume your earlier refactoring session.</p></blockquote>
-<div class="highlight"><div style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ git worktree add -b emergency-fix ../temp master
-</span></span><span style="display:flex;"><span>$ pushd ../temp
-</span></span><span style="display:flex;"><span># ... hack hack hack ...
-</span></span><span style="display:flex;"><span>$ git commit -a -m &#39;emergency fix for boss&#39;
-</span></span><span style="display:flex;"><span>$ popd
-</span></span><span style="display:flex;"><span>$ git worktree remove ../temp
-</span></span></code></pre></td></tr></table>
-</div>
-</div>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>$ git worktree add -b emergency-fix ../temp master
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>$ pushd ../temp
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span># ... hack hack hack ...
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>$ git commit -a -m &#39;emergency fix for boss&#39;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>$ popd
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>$ git worktree remove ../temp
+</span></span></code></pre></div>
 			</div>
 
 			<div class="tags">
