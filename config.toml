@@ -5,22 +5,13 @@ title =  'Blog of Suresh Kumar Nalluru'
 theme = [ "my",  "hugo-ink" ]
 
 copyright = "© 2012-2025 Suresh Kumar Nalluru. All rights reserved"
-pygmentsstyle = "vs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
 disableLiveReload = false
 canonifyurls = true
 
-googleAnalytics = ""
-disqusShortname = ""
-
 [pagination]
-pagerSize = 11
+  pagerSize = 11
 
 [permalinks]
-    # if the slug is not present, this takes the value of title of the page
-  #post = "/:slug/"
   post = "/:section/:year/:month/:slug/"
 
 [taxonomies]
@@ -28,9 +19,9 @@ pagerSize = 11
    category = "categories"
 
 [params]
-    dateFormat = "02 Jan 2006, 15:04"
+  dateFormat = "02 Jan 2006, 15:04"
 	mode = "auto" # "dark" or "auto"
-    featherIconsCDN = true
+  featherIconsCDN = true
 #without this subtitle, the social icons seem to be weirdly placed
 	subtitle = ""
 
@@ -45,16 +36,23 @@ pagerSize = 11
   [services.rss]
     limit = -1
 
+[markup]
+  [markup.highlight]
+    style = 'pygments'
+    lineNos = true
+    guessSyntax = true
+    lineNumbersInTable = true
+
 # Nav.
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+  name = "Home"
+  url = "/"
+  weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
+  name = "All posts"
+  url = "/posts"
+  weight = 2
 
 #[[menu.main]]
 #name = "About"
@@ -62,16 +60,16 @@ weight = 2
 #weight = 3
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+  name = "Tags"
+  url = "/tags"
+  weight = 4
 
 [[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/nasuku"
+  name = "Github"
+  icon = "github"
+  url = "https://github.com/nasuku"
 
 [[params.social]]
-name = "RSS"
-icon = "rss"
-url = "/index.xml"
+  name = "RSS"
+  icon = "rss"
+  url = "/index.xml"

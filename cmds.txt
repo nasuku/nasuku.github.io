@@ -1,10 +1,14 @@
 # assuming the src branch is checked out
 git worktree add -b cur-updates public origin/master
 hugo server -D --logLevel debug --disableFastRender --noBuildLock
-hugo build -d public
+hugo build -d public --noBuildLock
 cd public
 git pull
+git commit -a
 git push origin cur-updates:master
 cd ..
 git worktree remove public --force
 git b -D cur-updates
+
+git commit -a
+git push origin src
